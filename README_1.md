@@ -75,4 +75,3 @@ numpy, pandas, matplotlib, seaborn, scikit-learn, scipy
 
 ---
 
-*Learning source: Shreyansh AI School*

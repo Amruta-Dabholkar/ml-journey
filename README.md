@@ -126,7 +126,7 @@ Topics covered:
 | Covariance & Correlation | ✅ Done |
 | Statistical Tests (T, Z, ANOVA, Chi-Square) | ✅ Done |
 | Outlier Detection | ✅ Done |
-| Pandas | ✅ Done |
+| Pandas | 🔄 In Progress |
 | NumPy | ✅ Done |
 | Data Visualization | 🔄 In Progress |
 | ML Part 1 — EDA & Preprocessing | ✅ Done |

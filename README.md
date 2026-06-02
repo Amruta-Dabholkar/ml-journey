@@ -60,7 +60,6 @@ Topics covered:
 - Practical examples: BMI calculator, login system, calculator
 - While loops, mini-game logic
 - Dictionaries — key-value pairs, methods, iteration
-- OOP — classes, objects, `__init__`, `self`, inheritance, encapsulation
 
 ---
 
@@ -121,7 +120,7 @@ Topics covered:
 | Python Conditionals | ✅ Done |
 | While Loop & Mini Game | ✅ Done |
 | Dictionary | ✅ Done |
-| OOP | ✅ Done |
+| OOP | 🔄 In Progress |
 | Basic Probability | ✅ Done |
 | Two Sample Test | ✅ Done |
 | Covariance & Correlation | ✅ Done |

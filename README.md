@@ -34,11 +34,25 @@ ml-journey/
 │
 ├── numpy/                    # NumPy practice
 │
+├── pandas/                   # Pandas practice
+│
+├── data-visualization/       # Matplotlib, Seaborn, Plotly
+│   ├── matplotlib.ipynb
+│   ├── Categorical.ipynb
+│   ├── Distribution.ipynb
+│   ├── Matrixplot.ipynb
+│   ├── Regressionplot.ipynb
+│   └── plotlyandcufflinks.ipynb
+│
+├── projects/                 # Real-world projects
+│   └── IPL_Project.ipynb
+│
 ├── ml-part1/                 # ML Part 1 - EDA & Preprocessing
 │   └── insurance_eda.ipynb
 │
 ├── data/
-│   └── insurance.csv
+│   ├── insurance.csv
+│   └── IPL.csv
 │
 └── README.md
 ```
@@ -93,6 +107,55 @@ Topics covered:
 
 ---
 
+## 🐼 Pandas
+
+**Files:** `pandas/`
+
+Topics covered:
+- DataFrame creation, reading CSV files
+- Indexing & slicing — loc, iloc
+- Filtering & conditional selection
+- Handling missing values — dropna, fillna
+- GroupBy — aggregation, sorting
+- Merging & joining DataFrames
+- Apply & lambda functions
+- Descriptive statistics — describe, value_counts
+
+---
+
+## 📈 Data Visualization
+
+**Files:** `data-visualization/`
+
+| File | Library | Charts Covered |
+|------|---------|----------------|
+| `matplotlib.ipynb` | Matplotlib | Line plot, bar chart, scatter plot, basic customization |
+| `Categorical.ipynb` | Seaborn | Countplot, barplot, boxplot, violinplot, stripplot |
+| `Distribution.ipynb` | Seaborn | Histplot, KDE plot, distplot, rugplot |
+| `Matrixplot.ipynb` | Seaborn | Heatmap, clustermap, correlation matrix |
+| `Regressionplot.ipynb` | Seaborn | Regplot, lmplot, residual plots |
+| `plotlyandcufflinks.ipynb` | Plotly & Cufflinks | Interactive charts, iplot |
+
+**Key concepts practiced:** Figure & axes, subplots, color palettes, annotations, interactive visualizations.
+
+---
+
+## 🏏 IPL Data Analysis Project
+
+**File:** `projects/IPL_Project.ipynb`
+**Dataset:** `data/IPL.csv`
+
+A real-world data analysis project on Indian Premier League (IPL) cricket data.
+
+Topics covered:
+- Data loading & exploration
+- Cleaning & preprocessing IPL dataset
+- Visualizing team performance, top run scorers, wicket takers
+- Match result analysis
+- Season-wise trends using Pandas + Matplotlib + Seaborn
+
+---
+
 ## 🤖 Machine Learning
 
 ### ML Part 1 — Insurance EDA & Preprocessing
@@ -129,7 +192,8 @@ Topics covered:
 | Outlier Detection | ✅ Done |
 | Pandas | ✅ Done |
 | NumPy | ✅ Done |
-| Data Visualization | 🔄 In Progress |
+| Data Visualization | ✅ Done |
+| IPL Data Analysis Project | ✅ Done |
 | ML Part 1 — EDA & Preprocessing | ✅ Done |
 | ML Part 2 | 🔜 Upcoming |
 | ML Part 3 | 🔜 Upcoming |
@@ -137,11 +201,20 @@ Topics covered:
 
 ---
 
+## 🏆 Certificates
+
+| Certificate | Issuer | Date |
+|-------------|--------|------|
+| Data Analytics Job Simulation | Deloitte × Forage | June 2026 |
+
+---
+
 ## 🛠️ Libraries Used
 
 ```python
 numpy       pandas      matplotlib
-seaborn     scipy       sklearn
+seaborn     plotly      scipy
+sklearn     cufflinks
 ```
 
 ---

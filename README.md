@@ -48,10 +48,12 @@ ml-journey/
 │   └── IPL_Project.ipynb
 │
 ├── ml-part1/                 # ML Part 1 - EDA & Preprocessing
-│   └── insurance_eda.ipynb
+│   ├── insurance_eda.ipynb
+│   ├── insurance.csv
+│   ├── heart.ipynb
+│   └── heart.csv
 │
 ├── data/
-│   ├── insurance.csv
 │   └── IPL.csv
 │
 └── README.md
@@ -173,6 +175,19 @@ Topics covered:
   - Chi-Squared Test (categorical features vs binned charges)
 - Final selected features: `age`, `bmi`, `is_smoker`, `is_female`, `children`, `region_southeast`, `bmi_category_Obese`
 
+### ML Part 1 — Heart Disease EDA & Preprocessing
+
+**File:** `ml-part1/heart.ipynb`
+**Dataset:** `ml-part1/heart.csv`
+
+Topics covered:
+- Exploratory Data Analysis (EDA) on heart disease dataset
+- Data cleaning — handling nulls, duplicates, data types
+- Visualization — histplots, boxplots, countplots, correlation heatmap
+- Encoding categorical features
+- Feature scaling & selection
+- Identifying key predictors of heart disease
+
 ---
 
 ## 📈 Progress Tracker
@@ -193,7 +208,8 @@ Topics covered:
 | NumPy | ✅ Done |
 | Data Visualization | ✅ Done |
 | IPL Data Analysis Project | ✅ Done |
-| ML Part 1 — EDA & Preprocessing | ✅ Done |
+| ML Part 1 — EDA & Preprocessing (Insurance) | ✅ Done |
+| ML Part 1 — EDA & Preprocessing (Heart Disease) | ✅ Done |
 | ML Part 2 | 🔜 Upcoming |
 | ML Part 3 | 🔜 Upcoming |
 | ML Part 4 | 🔜 Upcoming |

@@ -34,24 +34,35 @@ ml-journey/
 │
 ├── numpy/                    # NumPy practice
 │
-├── pandas/                   # Pandas practice
+├── Pandas/                   # Pandas practice
+│   ├── DataFrames.ipynb
+│   ├── series.ipynb
+│   ├── Operations.ipynb
+│   ├── Missing_Data.ipynb
+│   ├── GroupBy_Aggregate.ipynb
+│   ├── Merging_Joining_Concatenation.ipynb
+│   ├── pivot_table.ipynb
+│   ├── Countries.ipynb
+│   └── Feature_Extraction_Project.ipynb
 │
-├── data-visualization/       # Matplotlib, Seaborn, Plotly
+├── Data Visualization/       # Matplotlib, Seaborn, Plotly
 │   ├── matplotlib.ipynb
 │   ├── Categorical.ipynb
 │   ├── Distribution.ipynb
 │   ├── Matrixplot.ipynb
 │   ├── Regressionplot.ipynb
-│   └── plotlyandcufflinks.ipynb
-│
-├── projects/                 # Real-world projects
+│   ├── plotlyandcufflinks.ipynb
 │   └── IPL_Project.ipynb
 │
-├── ml-part1/                 # ML Part 1 - EDA & Preprocessing
-│   ├── insurance_eda.ipynb
-│   ├── insurance.csv
+├── ML PART 1/                # ML Part 1 - EDA & Preprocessing
 │   ├── heart.ipynb
-│   └── heart.csv
+│   ├── heart.csv
+│   ├── Insurance.ipynb
+│   └── insurance.csv
+│
+├── ML PART 2/                # ML Part 2 - EDA & Preprocessing
+│   ├── insurance_eda.ipynb
+│   └── insurance.csv
 │
 ├── data/
 │   └── IPL.csv
@@ -76,6 +87,7 @@ Topics covered:
 - Practical examples: BMI calculator, login system, calculator
 - While loops, mini-game logic
 - Dictionaries — key-value pairs, methods, iteration
+- OOP — classes, objects, `__init__`, `self`, inheritance, encapsulation
 
 ---
 
@@ -110,7 +122,7 @@ Topics covered:
 
 ## 🐼 Pandas
 
-**Files:** `pandas/`
+**Files:** `Pandas/`
 
 Topics covered:
 - DataFrame creation, reading CSV files
@@ -118,15 +130,17 @@ Topics covered:
 - Filtering & conditional selection
 - Handling missing values — dropna, fillna
 - GroupBy — aggregation, sorting
-- Merging & joining DataFrames
+- Merging, joining & concatenation
+- Pivot tables
 - Apply & lambda functions
-- Descriptive statistics — describe, value_counts
+- Feature extraction project
+- Countries dataset analysis
 
 ---
 
 ## 📈 Data Visualization
 
-**Files:** `data-visualization/`
+**Files:** `Data Visualization/`
 
 | File | Library | Charts Covered |
 |------|---------|----------------|
@@ -136,6 +150,7 @@ Topics covered:
 | `Matrixplot.ipynb` | Seaborn | Heatmap, clustermap, correlation matrix |
 | `Regressionplot.ipynb` | Seaborn | Regplot, lmplot, residual plots |
 | `plotlyandcufflinks.ipynb` | Plotly & Cufflinks | Interactive charts, iplot |
+| `IPL_Project.ipynb` | Pandas + Seaborn | IPL cricket data analysis |
 
 **Key concepts practiced:** Figure & axes, subplots, color palettes, annotations, interactive visualizations.
 
@@ -143,7 +158,7 @@ Topics covered:
 
 ## 🏏 IPL Data Analysis Project
 
-**File:** `projects/IPL_Project.ipynb`
+**File:** `Data Visualization/IPL_Project.ipynb`
 **Dataset:** `data/IPL.csv`
 
 A real-world data analysis project on Indian Premier League (IPL) cricket data.
@@ -159,34 +174,41 @@ Topics covered:
 
 ## 🤖 Machine Learning
 
-### ML Part 1 — Insurance EDA & Preprocessing
-
-**File:** `ml-part1/insurance_eda.ipynb`
-**Dataset:** `data/insurance.csv`
-
-Topics covered:
-- Exploratory Data Analysis (EDA) — histplot, boxplot, countplot, heatmap
-- Data cleaning — removing duplicates, checking nulls
-- Encoding — binary mapping (`sex`, `smoker`), one-hot encoding (`region`)
-- Feature engineering — BMI categories using `pd.cut()`
-- Feature scaling — StandardScaler on numeric columns
-- Feature selection:
-  - Pearson Correlation (numerical features vs charges)
-  - Chi-Squared Test (categorical features vs binned charges)
-- Final selected features: `age`, `bmi`, `is_smoker`, `is_female`, `children`, `region_southeast`, `bmi_category_Obese`
-
 ### ML Part 1 — Heart Disease EDA & Preprocessing
 
-**File:** `ml-part1/heart.ipynb`
-**Dataset:** `ml-part1/heart.csv`
+**File:** `ML PART 1/heart.ipynb`
+**Dataset:** `ML PART 1/heart.csv`
 
 Topics covered:
-- Exploratory Data Analysis (EDA) on heart disease dataset
+- Exploratory Data Analysis on heart disease dataset
 - Data cleaning — handling nulls, duplicates, data types
 - Visualization — histplots, boxplots, countplots, correlation heatmap
 - Encoding categorical features
 - Feature scaling & selection
 - Identifying key predictors of heart disease
+
+### ML Part 1 — Insurance EDA & Preprocessing
+
+**File:** `ML PART 1/Insurance.ipynb`
+**Dataset:** `ML PART 1/insurance.csv`
+
+Topics covered:
+- Exploratory Data Analysis on insurance dataset
+- Data cleaning — removing duplicates, checking nulls
+- Encoding — binary mapping, one-hot encoding
+- Feature engineering — BMI categories using `pd.cut()`
+- Feature scaling — StandardScaler on numeric columns
+- Feature selection — Pearson Correlation & Chi-Squared Test
+
+### ML Part 2 — Insurance EDA Deep Dive
+
+**File:** `ML PART 2/insurance_eda.ipynb`
+**Dataset:** `ML PART 2/insurance.csv`
+
+Topics covered:
+- Advanced EDA techniques
+- In-depth feature analysis
+- Model preparation & pipeline
 
 ---
 
@@ -198,19 +220,19 @@ Topics covered:
 | Python Conditionals | ✅ Done |
 | While Loop & Mini Game | ✅ Done |
 | Dictionary | ✅ Done |
-| OOP | 🔄 In Progress |
+| OOP | ✅ Done |
 | Basic Probability | ✅ Done |
 | Two Sample Test | ✅ Done |
 | Covariance & Correlation | ✅ Done |
 | Statistical Tests (T, Z, ANOVA, Chi-Square) | ✅ Done |
 | Outlier Detection | ✅ Done |
-| Pandas | 🔄 In Progress |
+| Pandas | ✅ Done |
 | NumPy | ✅ Done |
 | Data Visualization | ✅ Done |
 | IPL Data Analysis Project | ✅ Done |
-| ML Part 1 — EDA & Preprocessing (Insurance) | ✅ Done |
-| ML Part 1 — EDA & Preprocessing (Heart Disease) | ✅ Done |
-| ML Part 2 | 🔜 Upcoming |
+| ML Part 1 — Heart Disease EDA | ✅ Done |
+| ML Part 1 — Insurance EDA | ✅ Done |
+| ML Part 2 — Insurance EDA Deep Dive | ✅ Done |
 | ML Part 3 | 🔜 Upcoming |
 | ML Part 4 | 🔜 Upcoming |
 
@@ -221,6 +243,10 @@ Topics covered:
 | Certificate | Issuer | Date |
 |-------------|--------|------|
 | Data Analytics Job Simulation | Deloitte × Forage | June 2026 |
+| Claude 101 | Anthropic | 2026 |
+| Fundamentals of Drone Systems & AI/ML for Drone Vision | IIT Goa × MeitY | Jan 2026 |
+| Data Science & Analytics | HP LIFE × HP Foundation | June 2025 |
+| Develop Your Brand Using Social Media | IBM SkillsBuild | Dec 2024 |
 
 ---
 
@@ -245,7 +271,7 @@ sklearn     cufflinks
 
 ## 🔗 Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Amruta_Dabholkar-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/amruta-dabholkar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Amruta_Dabholkar-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/amruta-dabholkar-2a51a4378/)
 [![GitHub](https://img.shields.io/badge/GitHub-Amruta--Dabholkar-black?style=flat&logo=github)](https://github.com/Amruta-Dabholkar)
 
 ---

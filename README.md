@@ -64,6 +64,14 @@ ml-journey/
 │   ├── insurance_eda.ipynb
 │   └── insurance.csv
 │
+├── ML PART 3/                # ML Part 3 - Heart Disease Classification (KNN)
+│   ├── Heart.ipynb
+│   ├── heart.csv
+│   ├── app.py
+│   ├── KNN_heart.pkl
+│   ├── scaler.pkl
+│   └── columns.pkl
+│
 ├── data/
 │   └── IPL.csv
 │
@@ -209,6 +217,17 @@ Topics covered:
 - In-depth feature analysis
 - Model preparation & pipeline
 
+### ML Part 3 — Heart Disease Classification (KNN)
+
+**File:** `ML PART 3/Heart.ipynb`
+**Dataset:** `ML PART 3/heart.csv`
+
+Topics covered:
+- Building a K-Nearest Neighbors (KNN) classification model
+- Model training, evaluation & hyperparameter tuning
+- Saving model artifacts — `KNN_heart.pkl`, `scaler.pkl`, `columns.pkl`
+- Building a simple prediction app — `app.py`
+
 ---
 
 ## 📈 Progress Tracker
@@ -219,7 +238,7 @@ Topics covered:
 | Python Conditionals | ✅ Done |
 | While Loop & Mini Game | ✅ Done |
 | Dictionary | ✅ Done |
-| OOP | 🔄 In Progress |
+| OOP | ✅ Done |
 | Basic Probability | ✅ Done |
 | Two Sample Test | ✅ Done |
 | Covariance & Correlation | ✅ Done |
@@ -232,7 +251,7 @@ Topics covered:
 | ML Part 1 — Heart Disease EDA | ✅ Done |
 | ML Part 1 — Insurance EDA | ✅ Done |
 | ML Part 2 — Insurance EDA Deep Dive | ✅ Done |
-| ML Part 3 | 🔜 Upcoming |
+| ML Part 3 — Heart Disease Classification (KNN) | ✅ Done |
 | ML Part 4 | 🔜 Upcoming |
 
 ---
